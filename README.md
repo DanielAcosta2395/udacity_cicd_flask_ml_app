@@ -1,1 +1,8 @@
-# udacity_cicd_flask_ml_app
+# How to run
+
+1. Launch an Azure Cloud Shell environment and create ssh-keys. Upload these keys to your GitHub account
+2. Create the Python Virtual Environment
+```
+python3 -m venv ~/.myrepo
+source ~/.myrepo/bin/activate
+```
