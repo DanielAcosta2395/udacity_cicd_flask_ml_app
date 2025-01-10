@@ -12,7 +12,8 @@ source ~/.myrepo/bin/activate
 ```
 4. Run ```make all``` to run the tests
 
-## CI: Configure GitHube Actions
+## CI: Configure GitHub Actions
 1. Enable GitHub Actions in your account
+2. Push changes to GitHub and verify that both lint and test steps pass in your project
 
 ## Continous Delivery on Azure
