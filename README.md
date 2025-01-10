@@ -7,3 +7,4 @@
 python3 -m venv ~/.myrepo
 source ~/.myrepo/bin/activate
 ```
+4. Run ```make all``` to run the tests
