@@ -7,7 +7,11 @@ ssh-keygen -t rsa
 ```
 
 2. Upload these keys to your GitHub account
+
 3. Clone the repo in the Azure Cloud Shell
+
+![Repo cloned in Azure Cloud Shell](Screenshots\Screenshot 2025-01-10 at 9.45.58 a.m..png)
+
 4. Create the Python Virtual Environment
 
 ```
@@ -140,14 +144,6 @@ Configure - Choose the Existing Azure Pipelines YAML file option. When you do no
 
 
 
-
-
-
-
-
-# Overview
-
-<TODO: complete this with an overview of your project>
 
 # Requirements
 
