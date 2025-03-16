@@ -10,7 +10,7 @@ ssh-keygen -t rsa
 
 3. Clone the repo in the Azure Cloud Shell
 
-![Repo cloned in Azure Cloud Shell](Screenshots/Screenshot 2025-01-10 at 9.45.58 a.m..png)
+![Repo Cloned](Screenshots/repo_cloned.png)
 
 4. Create the Python Virtual Environment
 
