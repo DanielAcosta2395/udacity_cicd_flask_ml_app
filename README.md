@@ -1,3 +1,19 @@
+# Requirements
+
+To run this project you need:
+- GitHub account
+- Microsoft Azure account.
+- Azure CLI installed on local Machine
+
+## Project Plan
+Trello project:
+https://trello.com/b/77UTYCG9/udacity-devops
+
+Spreadsheet:
+https://github.com/DanielAcosta2395/udacity_cicd_flask_ml_app/blob/main/Udacity_CI_CD_Project_Plan.xlsx
+
+## Instructions
+
 ## CI: Set Up Azure Cloud Shell
 1. Launch an Azure Cloud Shell environment and create ssh-keys.
 
@@ -20,6 +36,8 @@ source ~/.myrepo/bin/activate
 ```
 
 5. Run ```make all``` inside the project root directory to run the tests
+
+![Run Local Tests](Screenshots/run_local_tests.png)
 
 ## CI: Configure GitHub Actions
 1. Enable GitHub Actions in your account
@@ -145,21 +163,7 @@ Configure - Choose the Existing Azure Pipelines YAML file option. When you do no
 
 
 
-# Requirements
 
-To run this project you need:
-- GitHub account
-- Microsoft Azure account.
-- Azure CLI installed on local Machine
-
-## Project Plan
-Trello project:
-https://trello.com/b/77UTYCG9/udacity-devops
-
-Spreadsheet:
-https://github.com/DanielAcosta2395/udacity_cicd_flask_ml_app/blob/main/Udacity_CI_CD_Project_Plan.xlsx
-
-## Instructions
 
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
