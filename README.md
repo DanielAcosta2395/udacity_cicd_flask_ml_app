@@ -3,7 +3,7 @@
 To run this project you need:
 - GitHub account
 - Microsoft Azure account.
-- Azure CLI installed on local Machine
+- [Azure CLI installed on local Machine](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 
 ## Project Plan
 Trello project:
@@ -22,7 +22,11 @@ https://github.com/DanielAcosta2395/udacity_cicd_flask_ml_app/blob/main/Udacity_
 ssh-keygen -t rsa
 ```
 
+You need to copy the public key (.pub)
+
 2. Upload these keys to your GitHub account
+
+![Upload SSH key](Screenshots/upload_ssh_key.png)
 
 3. Clone the repo in the Azure Cloud Shell
 
@@ -40,8 +44,13 @@ source ~/.myrepo/bin/activate
 ![Run Local Tests](Screenshots/run_local_tests.png)
 
 ## CI: Configure GitHub Actions
-1. Enable GitHub Actions in your account
-2. Push changes to GitHub and verify that both lint and test steps pass in your project
+1. Enable GitHub Actions in your account, this needs to be done in the repo settings.
+
+![Allow GitHub actions](Screenshots/allow_actions.png)
+
+2. Push changes to GitHub and verify that both lint and test steps pass in your project.
+
+![GitHub Actions ests passed](Screenshots/github_actions_tests_passed.png)
 
 ## Continous Delivery on Azure
 Create a Personal Access Token (PAT)
