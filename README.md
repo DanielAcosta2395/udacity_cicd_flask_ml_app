@@ -1,3 +1,5 @@
+[![Build and deploy Python app to Azure Web App - danisflaskmlazure](https://github.com/DanielAcosta2395/udacity_cicd_flask_ml_app/actions/workflows/main_danisflaskmlazure.yml/badge.svg)](https://github.com/DanielAcosta2395/udacity_cicd_flask_ml_app/actions/workflows/main_danisflaskmlazure.yml)
+
 # Requirements
 
 To run this project you need:
