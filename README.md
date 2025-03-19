@@ -53,6 +53,42 @@ source ~/.myrepo/bin/activate
 ![GitHub Actions ests passed](Screenshots/github_actions_tests_passed.png)
 
 ## Continous Delivery on Azure
+
+1. Open a new terminal and run ```az login```
+
+![Azure Login](Screenshots/az_login.png)
+
+2. Then run the "commands.sh", this will create a new app service. Verify in the azure portal that you have a valid resource group, you can edit the file to write the app service name you want.
+
+```sh ./commands.sh```
+
+![App service success](Screenshots/console_app_service_created.png)
+
+Noticed the name for the app service in the "commands.sh" file, this name needs to be referenced in the "make_predict_azure_app.sh" file.
+
+3. Once the app service has been created, go to the Azure Portal, and search for the recently created rosurce:
+
+![App service created](Screenshots/app_service_created.png)
+
+4. Now in the Azure Portal search for "Azure DevOps organizations" and select the first option
+
+![Search Azure DevOps organizations](Screenshots/search_azure_devops.png)
+
+5. Click on "My Azure DevOps Organizations", you'll be redirected to the Azure DevOps portal, here you need to create a new organization if you don't have any.
+
+6. Once the organization has been created, you need to create a new project:
+
+![Create DevOps project](Screenshots/create_devops_project.png)
+
+7. Select the GitHub option, and then you will be prompted to login an allow access to your GitHub account:
+
+![Select GitHub repository option](Screenshots/pipeline_select_github.png)
+
+8. Select the repository you want to connect your pipeline:
+
+![Select GitHub repository](Screenshots/select_repository.png)
+
+
 Create a Personal Access Token (PAT)
 Create a new Personal Access Token (PAT) that will be used instead of a password by the build agent (Linux VM) for authentication/authorization. To create a PAT, go to home(opens in a new tab) and click on the top-right user icon, as shown below.
 
