@@ -70,23 +70,41 @@ Noticed the name for the app service in the "commands.sh" file, this name needs 
 
 ![App service created](Screenshots/app_service_created.png)
 
-4. Now in the Azure Portal search for "Azure DevOps organizations" and select the first option
+
+## Continous Delivery using Azure DevOps
+
+1. Now in the Azure Portal search for "Azure DevOps organizations" and select the first option
 
 ![Search Azure DevOps organizations](Screenshots/search_azure_devops.png)
 
-5. Click on "My Azure DevOps Organizations", you'll be redirected to the Azure DevOps portal, here you need to create a new organization if you don't have any.
+2. Click on "My Azure DevOps Organizations", you'll be redirected to the Azure DevOps portal, here you need to create a new organization if you don't have any.
 
-6. Once the organization has been created, you need to create a new project:
+3. Once the organization has been created, you need to create a new project:
 
 ![Create DevOps project](Screenshots/create_devops_project.png)
 
-7. Select the GitHub option, and then you will be prompted to login an allow access to your GitHub account:
+4. Select the GitHub option, and then you will be prompted to login an allow access to your GitHub account:
 
 ![Select GitHub repository option](Screenshots/pipeline_select_github.png)
 
-8. Select the repository you want to connect your pipeline:
+5. Select the repository you want to connect your pipeline:
 
 ![Select GitHub repository](Screenshots/select_repository.png)
+
+6. Select the option "Python to Linux Web App on Azure"
+
+![Select the option Python to Linux Web App on Azure](Screenshots/select_python_to_linux.png)
+
+7. Then you need to select the subscription where your deployed the App Service.
+
+8. You will have the list of available App services, select one and click on "Validate and Configure"
+
+![List of available App services](Screenshots/list_app_services.png)
+
+
+## Continous Delivery using GitHub actions
+
+1. 
 
 
 Create a Personal Access Token (PAT)
